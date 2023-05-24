@@ -21,6 +21,6 @@ public class WeatherForecastController : ControllerBase
     [HttpGet]
     public ActionResult<string> Get()
     {
-        return "prueba api";
+        return "prueba api v2";
     }
 }
